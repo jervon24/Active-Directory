@@ -42,9 +42,13 @@ The image above shows both virtual machines being created in Azure.They were bot
 
 
 
-s nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img scr=https://i.imgur.com/ogwZvgs.png/>
 </p>
-<br />
+<p> 
+  
+  Two organizational units were created in active directory; _EMPLOYEES and _ADMIN. I added a member to the admin unit gave that member administrial authority. I then relogged in as the member to have a more work space experience as shown in the snapshots below.
+  
+ <img src=https://i.imgur.com/bNiWLDZ.png/> <img src=https://i.imgur.com/lCYm4vW.png/>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
