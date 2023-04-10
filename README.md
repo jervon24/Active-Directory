@@ -21,7 +21,7 @@
 - Create Windows Server and Windows 10 Virtual Machine in Azure
 - Install Active Directory
 - Create Organizational Units in Active Directory
-- Configure and work with both virtual machines
+- Configure and work within both virtual machines
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -51,9 +51,21 @@ The image above shows both virtual machines being created in Azure.They were bot
  <img src=https://i.imgur.com/bNiWLDZ.png/> <img src=https://i.imgur.com/lCYm4vW.png/>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+  Client-1 Virtual machine (windows10) was then joined to the Domain Controller virtual machine as shown in the picture below. Before this happen, client-1 DNS settings was set to the domain controller private IP address so that the client-1 could join. I then connected to active directory in the domain controller virtual machine then checked wheather client-1 virtual machine was connected. Client-1 was then added to the computers file as showned in the second picture. 
+
+  <img src=https://i.imgur.com/brX7hKj.png/> <img src=https://i.imgur.com/tfLfKbK.png/>
+>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I then changed the settings in CLient-1 vitual machine so that other users could remote desktop into the computer. The screenshot below displays this.
+  
+  <img scr=https://i.imgur.com/ozs0zuD.png/>
 </p>
 <br />
+
+I then access the domain controller then open powershell ISE as an administrator to run a code which will create many users. Afterwards i tried logging in as one of the users which were created. The images below shows this and thus bring an end to this section of the lab.
+
+<img src=https://i.imgur.com/jPpXbVn.png/> <img src=https://i.imgur.com/4HFh3Hd.png/> <img src=https://i.imgur.com/QaVNLRN.png/>
+
+
