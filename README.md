@@ -52,7 +52,7 @@ The image above shows both virtual machines being created in Azure.They were bot
 
 <p>
   
-  Client-1 Virtual machine (windows10) was then joined to the Domain Controller virtual machine as shown in the picture below. Before this happen, client-1 DNS settings was set to the domain controller private IP address so that the client-1 could join. I then connected to active directory in the domain controller virtual machine then checked wheather client-1 virtual machine was connected. Client-1 was then added to the computers file as showned in the second picture. 
+  Client-1 Virtual machine (windows10) was then joined to the Domain Controller virtual machine as shown in the picture below. Before this happen, client-1 DNS settings was set to the domain controller private IP address so that client-1 could join successfully. I then connected to active directory in the domain controller virtual machine then checked wheather client-1 virtual machine was connected. Client-1 was then added to the computers file as shown in the second picture. 
 
   <img src=https://i.imgur.com/brX7hKj.png/> <img src=https://i.imgur.com/tfLfKbK.png/>
 >
@@ -60,12 +60,12 @@ The image above shows both virtual machines being created in Azure.They were bot
 <p>
 I then changed the settings in CLient-1 vitual machine so that other users could remote desktop into the computer. The screenshot below displays this.
   
-  <img scr=https://i.imgur.com/ozs0zuD.png/>
+<img src=https://i.imgur.com/ozs0zuD.png/>
 </p>
-<br />
 
-I then access the domain controller then open powershell ISE as an administrator to run a code which will create many users. Afterwards i tried logging in as one of the users which were created. The images below shows this and thus bring an end to this section of the lab.
 
-<img src=https://i.imgur.com/jPpXbVn.png/> <img src=https://i.imgur.com/4HFh3Hd.png/> <img src=https://i.imgur.com/QaVNLRN.png/>
+I then accessed the domain controller and opened Powershell ISE as an administrator to run a code which will create many users in the _EMPLOYEES organizational unit. Afterwards I then logged in as one of the users which were created. The images below shows this and thus brings an end to this section of the lab.
+
+<img src=https://i.imgur.com/cUN0uhI.png/> <img src=https://i.imgur.com/jPpXbVn.png/> <img src=https://i.imgur.com/4HFh3Hd.png/> <img src=https://i.imgur.com/QaVNLRN.png/>
 
 
