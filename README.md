@@ -29,20 +29,20 @@
 <img src=https://i.imgur.com/EWaMWLA.png/>
 </p>
 <p>
-The image above shows both virtual machines created in Azure.They were both in the same virtual network and resource group.
+The image above shows both virtual machines being created in Azure.They were both in the same virtual network and resource group.
 </p>
 <br />
 
 <p>
-<img src="https:///>
+<img src=https://i.imgur.com/cHa8m9A.png/> <img src=https://i.imgur.com/9x7lWwz.png/>
 </p>
-<p>
-# This repo has a video on its readme :p
+<p>Active Directory Domain Services was installed then the server was promoted to a domain controller as shown in the second picture with a domain name of "mydomain.com" Windows server virtual machine restarted to completed the installation of domain services. Since a new domain was created, I then had to log back in as "mydomain.com\labuser as shown in the picture below.
+
+<img src=https://i.imgur.com/7VGqpOr.png/>
 
 
-https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+s nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
