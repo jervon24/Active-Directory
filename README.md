@@ -4,6 +4,8 @@
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 
+This lab outlines the configuration and use of active directory in Microsoft Azure. 
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
