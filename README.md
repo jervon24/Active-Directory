@@ -36,7 +36,7 @@ The image above shows both virtual machines being created in Azure.They were bot
 <p>
 <img src=https://i.imgur.com/cHa8m9A.png/> <img src=https://i.imgur.com/9x7lWwz.png/>
 </p>
-<p>Active Directory Domain Services was installed then the server was promoted to a domain controller as shown in the second picture with a domain name of "mydomain.com" Windows server virtual machine restarted to complete the installation of domain services. Since a new domain was created, I then had to log back in as "mydomain.com\labuser as shown in the picture below.
+<p>Active Directory Domain Services was installed then the server was promoted to a domain controller as shown in the second picture with a domain name of "mydomain.com" Windows server virtual machine restarted to complete the installation of domain services. Since a new domain was created, I then had to log back in as "mydomain.com\labuser as shown in the picture .
 
 <img src=https://i.imgur.com/7VGqpOr.png/>
 
