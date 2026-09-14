@@ -49,7 +49,7 @@ The image above shows both virtual machines being created in Azure.They were bot
 </p>
 <p> 
   
-  Two organizational units were created in active directory; _EMPLOYEES and _ADMIN. I added a member to the admin unit and gave that member administrial authority. I then relogged in as the member to have a real life experience as shown in the snapshots below.
+  Two organizational units were created in active directory; _EMPLOYEES and _ADMIN. I added a member to the admin unit and gave that member administrative authority. I then relogged in as the member to have a real life experience as shown in the snapshots below.
   
  <img src=https://i.imgur.com/bNiWLDZ.png/> <img src=https://i.imgur.com/lCYm4vW.png/>
 
