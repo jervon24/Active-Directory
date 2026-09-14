@@ -55,7 +55,7 @@ The image above shows both virtual machines being created in Azure.They were bot
 
 <p>
   
-  Client-1 Virtual machine (windows10) was then joined to the Domain Controller virtual machine as shown in the picture below. Before this happen, client-1 DNS settings was set to the domain controller private IP address so that client-1 could join successfully. I then connected to active directory in the domain controller virtual machine then checked wheather client-1 virtual machine was connected. Client-1 was then added to the computers file as shown in the second picture. 
+  Client-1 Virtual machine (windows10) was then joined to the Domain Controller virtual machine as shown in the picture below. Before this happen, client-1 DNS settings was set to the domain controller private IP address so that client-1 could join successfully. I then connected to active directory in the domain controller virtual machine then checked whether client-1 virtual machine was connected. Client-1 was then added to the computers file as shown in the second picture. 
 
   <img src=https://i.imgur.com/brX7hKj.png/> <img src=https://i.imgur.com/tfLfKbK.png/>
 >
