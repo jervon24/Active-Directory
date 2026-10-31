@@ -80,11 +80,3 @@ On DC-1, I ran a PowerShell script in PowerShell ISE (as administrator) that cre
 <img src="https://i.imgur.com/QaVNLRN.png" alt="Logging in to Client-1 as a created user"/>
 
 I then logged in to Client-1 as one of the new users to confirm the accounts worked. In a real environment, bulk-created accounts should be required to change their password at first logon instead of keeping a shared default.
-
-<h2>What I Learned</h2>
-
-- Deploying a domain controller and promoting a server to create a new AD forest
-- Why DNS is the foundation of domain membership
-- Organizing accounts with OUs and managing privileged access
-- Automating user administration with PowerShell
-- AD security practices: separate admin accounts, restricted remote access, and secure default passwords
